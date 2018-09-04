@@ -1,20 +1,118 @@
 body {
   background-color: #00011f !important;
   color: white !important;
+  font-family: 'Montserrat', sans-serif !important;
   position: relative;
 }
 
+h1 {
+  font-weight: 700 !important;
+  letter-spacing: 2px;
+}
+
 .navWrapper {
-    position: fixed;
-    left: 0px;
-    width: 60px;
-    height: 100%;
+  position: fixed;
+  left: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 4px 1px 20px 2px rgba(255, 255, 255, 0.075);
 }
 
 .bodyWrapper {
-    margin-left: 70px;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .contentWrap {
     padding: 30px 0px;
+    height: 100%;
+}
+
+.backgroundGradient{
+  width: 100%;
+  max-width: 100px;
+  height: 4px;
+  background: #2a4cd3; /* Old browsers */
+  background: -moz-linear-gradient(left, #2a4cd3 0%, #c72af7 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #2a4cd3 0%,#c72af7 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #2a4cd3 0%,#c72af7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.backgroundGradient.slim{
+  height: 1px;
+}
+
+.navWrapper .nav .navIcon {
+  font-size: 2em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+
+.navWrapper .nav {
+  margin-top: 20px;
+  height:100%;
+}
+
+.navWrapper .nav .menuIcons{
+  position: absolute;
+  top: calc(50% - 20px);
+  width: 100%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+}
+
+.navWrapper .nav .mainLogo {
+  width: 60px;
+  opacity: 0.95;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.navWrapper .nav .iconText {
+  padding-top: 5px;
+  font-size: 18px;
+}
+
+.homeContent{
+
+  position: absolute;
+  padding-right: 30px;
+  top: calc(50% - 30px);
+  transform: translateY(-50%);
+}
+
+.homeContent .backgroundGradient{
+  margin: auto;
+}
+
+.contentWrap .headerContent {
+  text-align: center;
+  margin: auto;
+  padding: 20px 0px;
+  font-size: 30px;
+}
+#particles-js {
+  position: absolute;
+  width: calc(100% - 100px);
+  height: calc(100% - 10px);
+}
+
+.contentWrap .headerContent .introContent {
+  padding-top: 20px;
+  max-width: 80%;
+  margin: auto;
+}
+
+
+#canvas {
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }

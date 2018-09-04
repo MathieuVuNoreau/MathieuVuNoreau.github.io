@@ -13,6 +13,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+
+    <script src="js/particles.min.js"> </script>
+
+
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -29,13 +34,47 @@
     <div class="navWrapper">
       <div class="contentWrap">
         <div class="nav">
-
+          <div class="mainLogo navIcon">
+            <img src="assets/mLogo.png" class="mainLogo" alt="mainLogo">
+          </div>
+          <div class="menuIcons">
+            <div class="homeNav navIcon">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <div class="iconText">
+                Home
+              </div>
+            </div>
+            <div class="introNav navIcon">
+              <i class="fa fa-id-card-o" aria-hidden="true"></i>
+              <div class="iconText">
+                Intro
+              </div>
+            </div>
+            <div class="ReportNav navIcon">
+              <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+              <div class="iconText">
+                Report
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="bodyWrapper">
+    <div class="bodyWrapper homePage">
+      <div id="particles-js"></div>
       <div class="contentWrap">
-        <h1>Mathieu's Final Co-Op Report</h1>
+          <div class="homeContent">
+            <div class="backgroundGradient slim"></div>
+            <div class="headerContent">
+              <div class="introName">
+                Hi, I'm Mathieu Vu-Noreau.
+              </div>
+              <div class="introContent">
+                I'm a full-stack web developer, Site Reliability Engineer, and Software Developer whose hobbies include fitness, movies, and outdoor activites (Canoeing, Hiking).
+              </div>
+            </div>
+            <div class="backgroundGradient slim"></div>
+          </div>
       </div>
   </div>
 
@@ -43,5 +82,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

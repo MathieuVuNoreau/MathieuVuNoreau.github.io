@@ -1,0 +1,20 @@
+body {
+  background-color: #00011f !important;
+  color: white !important;
+  position: relative;
+}
+
+.navWrapper {
+    position: fixed;
+    left: 0px;
+    width: 60px;
+    height: 100%;
+}
+
+.bodyWrapper {
+    margin-left: 70px;
+}
+
+.contentWrap {
+    padding: 30px 0px;
+}

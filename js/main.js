@@ -78,3 +78,18 @@ particlesJS("particles-js", {
     },
   }
 });
+
+$(".homeNav").on('click',function(){
+  $(".bodyWrapper.currentPage").removeClass("currentPage");
+  $(".bodyWrapper.homePage").addClass("currentPage");
+});
+
+$(".introNav").on('click',function(){
+  $(".bodyWrapper.currentPage").removeClass("currentPage");
+  $(".bodyWrapper.IntroPage").addClass("currentPage");
+});
+
+$(".ReportNav").on('click',function(){
+  $(".bodyWrapper.currentPage").removeClass("currentPage");
+  $(".bodyWrapper.reportPage").addClass("currentPage");
+});

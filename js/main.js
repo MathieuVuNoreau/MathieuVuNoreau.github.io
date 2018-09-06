@@ -80,14 +80,14 @@ particlesJS("particles-js", {
 });
 $(document).ready(function(){
   $(".homePage .headerContent")[0].style.animation = "fade-in 2s";
-  $(".homePage .backgroundGradient")[0].style.animation = "grow 8s";
-  $(".homePage .backgroundGradient")[1].style.animation = "grow 8s";
+  $(".homePage .backgroundGradient.slim")[0].style.animation = "grow 8s";
+  $(".homePage .backgroundGradient.slim")[1].style.animation = "grow 8s";
 });
 
 $(".homeNav").on('click',function(){
   $(".homePage .headerContent")[0].style.animation = "fade-in 2s";
-  $(".homePage .backgroundGradient")[0].style.animation = "grow 8s";
-  $(".homePage .backgroundGradient")[1].style.animation = "grow 8s";
+  $(".homePage .backgroundGradient.slim")[0].style.animation = "grow 8s";
+  $(".homePage .backgroundGradient.slim")[1].style.animation = "grow 8s";
   $(".bodyWrapper.currentPage").removeClass("currentPage");
   $(".bodyWrapper.homePage").addClass("currentPage");
 });

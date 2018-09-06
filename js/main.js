@@ -85,6 +85,22 @@ $(".homeNav").on('click',function(){
 });
 
 $(".introNav").on('click',function(){
+  $(".header")[0].style.animation = "load-left 0.3s";
+  $(".header")[1].style.animation = "load-left 0.3s";
+  $(".image-wrapper")[0].style.animation = "load-left 0.7s";
+  $(".first-intro")[0].style.animation = "load-right 0.3s";
+  $(".second-intro")[0].style.animation = "load-right 0.5s";
+  $(".third-intro")[0].style.animation = "load-right 0.7s";
+  $(".skillIcon")[0].style.animation = "fade-in 0.2s";
+  $(".skillIcon")[1].style.animation = "fade-in 0.4s";
+  $(".skillIcon")[2].style.animation = "fade-in 0.6s";
+  $(".skillIcon")[3].style.animation = "fade-in 0.8s";
+  $(".skillIcon")[4].style.animation = "fade-in 1s";
+  $(".skillIcon")[5].style.animation = "fade-in 1.2s";
+  $(".skillIcon")[6].style.animation = "fade-in 1.4s";
+  $(".skillIcon")[7].style.animation = "fade-in 1.6s";
+  $(".skillIcon")[8].style.animation = "fade-in 1.8s";
+  $(".skillIcon")[9].style.animation = "fade-in 2s";
   $(".bodyWrapper.currentPage").removeClass("currentPage");
   $(".bodyWrapper.IntroPage").addClass("currentPage");
 });

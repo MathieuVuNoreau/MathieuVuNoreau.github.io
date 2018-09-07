@@ -116,6 +116,56 @@ $(".introNav").on('click',function(){
 });
 
 $(".ReportNav").on('click',function(){
+  $(".reportPage .header")[0].style.animation = "fade-in 0.3s";
+  $(".reportPage .backgroundGradient")[0].style.animation = "grow 5s";
+  $(".reportPage .currentPageBar")[0].style.animation = "grow 1s";
+  $(".reportPage .currentPageIndicator")[0].style.animation = "grow 1s";
+  $(".reportPage .currentTab .backgroundGradient.slim")[0].style.animation = "grow 5s";
   $(".bodyWrapper.currentPage").removeClass("currentPage");
   $(".bodyWrapper.reportPage").addClass("currentPage");
+});
+
+$(".introductionReport").on('click',function(){
+  $(".activeTab").removeClass("activeTab");
+  $(".currentPageIndicator")[0].style.left= (175*0)+"px";
+  $(this).addClass("activeTab");
+  $(".currentTab").removeClass("currentTab");
+  $(".reportTabContent.reportIntro").addClass("currentTab");
+  $(".reportPage .currentTab .backgroundGradient.slim")[0].style.animation = "grow 5s";
+});
+
+$(".employerReport").on('click',function(){
+  $(".currentPageIndicator")[0].style.left= (175*1)+"px";
+  $(".activeTab").removeClass("activeTab");
+  $(this).addClass("activeTab");
+  $(".currentTab").removeClass("currentTab");
+  $(".reportTabContent.reportEmployer").addClass("currentTab");
+  $(".reportPage .currentTab .backgroundGradient.slim")[0].style.animation = "grow 5s";
+});
+
+$(".goalsReport").on('click',function(){
+  $(".currentPageIndicator")[0].style.left= (175*2)+"px";
+  $(".activeTab").removeClass("activeTab");
+  $(this).addClass("activeTab");
+  $(".currentTab").removeClass("currentTab");
+  $(".reportTabContent.reportGoals").addClass("currentTab");
+  $(".reportPage .currentTab .backgroundGradient.slim")[0].style.animation = "grow 5s";
+});
+
+$(".jobDescriptionReport").on('click',function(){
+  $(".currentPageIndicator")[0].style.left= (175*3)+"px";
+  $(".activeTab").removeClass("activeTab");
+  $(this).addClass("activeTab");
+  $(".currentTab").removeClass("currentTab");
+  $(".reportTabContent.reportJobDescription").addClass("currentTab");
+  $(".reportPage .currentTab .backgroundGradient.slim")[0].style.animation = "grow 5s";
+});
+
+$(".conclusionsReport").on('click',function(){
+  $(".currentPageIndicator")[0].style.left= (175*4)+"px";
+  $(".activeTab").removeClass("activeTab");
+  $(this).addClass("activeTab");
+  $(".currentTab").removeClass("currentTab");
+  $(".reportTabContent.reportConclusions").addClass("currentTab");
+  $(".reportPage .currentTab .backgroundGradient.slim")[0].style.animation = "grow 5s";
 });

@@ -180,14 +180,14 @@ h2 {
   font-weight: 400;
 }
 
-.first-intro.introParagraph {
+.IntroPage .first-intro.introParagraph {
   width: 60%;
 }
-.second-intro.introParagraph {
+.IntroPage .second-intro.introParagraph {
   width: 65%;
 }
 
-.third-intro.introParagraph {
+.IntroPage .third-intro.introParagraph {
   width: 67%;
 }
 
@@ -258,7 +258,7 @@ h2 {
 }
 
 .reportPage .reportMenu .menuItem{
-  width: 175px;
+  width: 200px;
   padding-bottom: 15px;
   text-transform: uppercase;
   color: rgba(255,255,255,0.8);
@@ -279,7 +279,7 @@ h2 {
 
 .reportPage .reportMenu .currentPageIndicator {
   position: absolute;
-  width: 175px;
+  width: 200px;
   height: 5px;
   bottom: 0px;
   transition: all 0.5s;
@@ -297,6 +297,11 @@ h2 {
 
 .reportPage .reportTabContent.currentTab{
   display: block;
+}
+
+.reportPage .introParagraph{
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 @keyframes load-left {

@@ -127,7 +127,7 @@ $(".ReportNav").on('click',function(){
 
 $(".introductionReport").on('click',function(){
   $(".activeTab").removeClass("activeTab");
-  $(".currentPageIndicator")[0].style.left= (175*0)+"px";
+  $(".currentPageIndicator")[0].style.left= (200*0)+"px";
   $(this).addClass("activeTab");
   $(".currentTab").removeClass("currentTab");
   $(".reportTabContent.reportIntro").addClass("currentTab");
@@ -135,7 +135,7 @@ $(".introductionReport").on('click',function(){
 });
 
 $(".employerReport").on('click',function(){
-  $(".currentPageIndicator")[0].style.left= (175*1)+"px";
+  $(".currentPageIndicator")[0].style.left= (200*1)+"px";
   $(".activeTab").removeClass("activeTab");
   $(this).addClass("activeTab");
   $(".currentTab").removeClass("currentTab");
@@ -144,7 +144,7 @@ $(".employerReport").on('click',function(){
 });
 
 $(".goalsReport").on('click',function(){
-  $(".currentPageIndicator")[0].style.left= (175*2)+"px";
+  $(".currentPageIndicator")[0].style.left= (200*2)+"px";
   $(".activeTab").removeClass("activeTab");
   $(this).addClass("activeTab");
   $(".currentTab").removeClass("currentTab");
@@ -153,7 +153,7 @@ $(".goalsReport").on('click',function(){
 });
 
 $(".jobDescriptionReport").on('click',function(){
-  $(".currentPageIndicator")[0].style.left= (175*3)+"px";
+  $(".currentPageIndicator")[0].style.left= (200*3)+"px";
   $(".activeTab").removeClass("activeTab");
   $(this).addClass("activeTab");
   $(".currentTab").removeClass("currentTab");
@@ -162,7 +162,7 @@ $(".jobDescriptionReport").on('click',function(){
 });
 
 $(".conclusionsReport").on('click',function(){
-  $(".currentPageIndicator")[0].style.left= (175*4)+"px";
+  $(".currentPageIndicator")[0].style.left= (200*4)+"px";
   $(".activeTab").removeClass("activeTab");
   $(this).addClass("activeTab");
   $(".currentTab").removeClass("currentTab");
